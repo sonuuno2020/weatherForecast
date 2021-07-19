@@ -1,0 +1,48 @@
+$sub-color: grey;
+$main-color: black;
+
+
+.group {
+  position: relative;
+  margin: 20px 0px;
+  height: 30%;
+
+  .form-input {
+    background: none;
+    background-color: white;
+    color: $sub-color;
+    font-size: 18px;
+    padding: 2px;
+    display: block;
+    width: 95%;
+    height: 30px;
+    border: none;
+    border-radius: 0;
+    border-bottom: 1px solid $sub-color;
+    margin: 2px 0;
+
+    &:focus {
+      outline: none;
+    }
+
+   
+    }
+  }
+
+  input[type='country'] {
+    letter-spacing: 0.3em;
+  }
+
+  .label {
+    color: $sub-color;
+    font-size: 16px;
+    font-weight: normal;
+    position: block;
+    pointer-events: none;
+    left: 5px;
+    
+    transition: 300ms ease all;
+
+    
+  
+}
